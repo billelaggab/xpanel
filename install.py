@@ -71,7 +71,7 @@ rDownloadURL = {
     # XPanel - the rebuilt admin panel. Published as a GitHub release asset,
     # exactly like release_22f.zip / newstuff.zip below. Override the whole URL
     # with the XPANEL_ZIP_URL environment variable when using your own fork.
-    "xpanel": "https://github.com/emre1393/xtreamui_mirror/releases/latest/download/xpanel.zip",
+    "xpanel": "https://github.com/billelaggab/xpanel/releases/download/latest/xpanel.zip",
     # Legacy 22F panel, kept only as a last-resort fallback.
     "legacy_panel": "https://github.com/emre1393/xtreamui_mirror/releases/latest/download/release_22f.zip",
     "legacy_newstuff": "https://github.com/emre1393/xtreamui_mirror/releases/latest/download/newstuff.zip",

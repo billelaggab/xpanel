@@ -116,8 +116,8 @@
 
 ```bash
 # 1) اجلب المستودع
-git clone https://github.com/<owner>/<repo>.git
-cd <repo>
+git clone https://github.com/billelaggab/xpanel.git
+cd xpanel
 
 # 2) اجعل المثبّت قابلاً للتنفيذ
 chmod +x install.py
@@ -179,7 +179,7 @@ cd .. && zip -r xpanel.zip xpanel -x '*.DS_Store'
 |---|---|
 | 🏷️ أنشئ إصداراً | `Releases → Draft a new release` |
 | 📎 ارفع الأصل | أرفق `xpanel.zip` (يُفضَّل مع `release_22f.zip` و`newstuff.zip`) |
-| 🔗 الرابط النهائي | `https://github.com/<owner>/<repo>/releases/latest/download/xpanel.zip` |
+| 🔗 الرابط النهائي | `https://github.com/billelaggab/xpanel/releases/download/latest/xpanel.zip` |
 
 > [!NOTE]
 > 💡 استخدام `releases/latest/download/…` يعني أن `install.py` يلتقط **أحدث إصدار تلقائياً** دون تعديل أي رابط.
@@ -211,7 +211,7 @@ cd .. && zip -r xpanel.zip xpanel -x '*.DS_Store'
 ### 5️⃣ توجيه التنزيل إلى مستودعك
 
 ```bash
-sudo XPANEL_ZIP_URL="https://github.com/<you>/<your_mirror>/releases/latest/download/xpanel.zip" \
+sudo XPANEL_ZIP_URL="https://github.com/billelaggab/xpanel/releases/download/latest/xpanel.zip" \
      ./install.py
 ```
 
