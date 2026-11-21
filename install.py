@@ -137,6 +137,7 @@ rVersions = {
     "20.04": "focal",
     "22.04": "jammy",
     "24.04": "noble",
+    "26.04": "resolute",
 }
 
 rPaths = {
